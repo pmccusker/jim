@@ -14,7 +14,7 @@ namespace Hello_World
             for (int i = 0; i < iCount; i++)
             {
                 //Break the test
-                if (i == 10) continue;
+                //if (i == 10) continue;
 
                 iRet += i;
             }
