@@ -21,5 +21,15 @@ namespace Hello_World
         {
             MessageBox.Show("Test");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int i = int.Parse(textBox1.Text);
+            TestLogic oLogic = new TestLogic();
+            int iResult = oLogic.go(i);
+
+
+            MessageBox.Show(iResult.ToString());
+        }
     }
 }

@@ -16,6 +16,10 @@ namespace HelloTests
             Assert.AreEqual(oLogic.go(1), 0);
             Assert.AreEqual(oLogic.go(2), 1);
 
+            Assert.AreEqual(oLogic.go(100), 4950);
+
+            //4950
+
 
         }
     }
