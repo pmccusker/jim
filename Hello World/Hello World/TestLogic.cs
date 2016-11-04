@@ -13,9 +13,10 @@ namespace Hello_World
             int iRet = 0;
             for (int i = 0; i < iCount; i++)
             {
-                iRet += i;
+                //Break the test
+                if (i == 10) continue;
 
-                
+                iRet += i;
             }
 
             return iRet;
