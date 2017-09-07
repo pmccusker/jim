@@ -11,6 +11,7 @@ namespace Hello_World
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+        // New comment
         [STAThread]
         static void Main()
         {
